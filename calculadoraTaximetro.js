@@ -32,6 +32,8 @@ const solucao = (min, km) => {
         } else if (km > min) {
             valorgorjeta = min * 1.1
         }
+    } else {
+        valorgorjeta = 0
     }
     console.log(progressaoTarifa + valorgorjeta)
 }
