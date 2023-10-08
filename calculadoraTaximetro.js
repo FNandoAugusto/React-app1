@@ -35,7 +35,7 @@ const solucao = () => {
     } else {
         valorgorjeta = 0
     }
-
+    //
     console.log(progressaoTarifa + valorgorjeta)
     console.log(tarifaKm, tarifaMin)
 }
