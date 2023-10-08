@@ -1,4 +1,4 @@
-const solucao = (min, km) => {
+const solucao = () => {
     let tarifaMin = 0
     let tarifaKm = 0
 
@@ -18,7 +18,7 @@ const solucao = (min, km) => {
     } else {
         tarifaKm = 70 * km
     }
-    console.log(tarifaKm, tarifaMin)
+
     let progressaoTarifa = tarifaMin + tarifaKm
 
     let gorjeta = false
@@ -35,6 +35,8 @@ const solucao = (min, km) => {
     } else {
         valorgorjeta = 0
     }
-    console.log(progressaoTarifa + valorgorjeta)
-}
 
+    console.log(progressaoTarifa + valorgorjeta)
+    console.log(tarifaKm, tarifaMin)
+}
+solucao()
